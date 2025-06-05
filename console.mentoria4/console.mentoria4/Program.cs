@@ -35,22 +35,21 @@ while (continuar)
     Console.WriteLine("=== Menu de Exemplos de Estruturas de Repetição ===");
     Console.WriteLine("\nExemplos com For:");
     Console.WriteLine("1. For - Exemplo com Range Input");
-    Console.WriteLine("2. For - Exemplo com Lista e Comparação");
-    Console.WriteLine("3. For - Exemplo com Contagem de Valores");
+    Console.WriteLine("2. For - Exemplo com Contagem de Valores");
     
     Console.WriteLine("\nExemplos com Foreach:");
-    Console.WriteLine("4. Foreach - Exemplo com Lista de Números");
-    Console.WriteLine("5. Foreach - Exemplo com Lista de Palavras");
-    Console.WriteLine("6. Foreach - Exemplo com Dicionário");
+    Console.WriteLine("3. Foreach - Exemplo com Lista de Números");
+    Console.WriteLine("4. Foreach - Exemplo com Lista de Palavras");
+    Console.WriteLine("5. Foreach - Exemplo com Dicionário");
     
     Console.WriteLine("\nExemplos com While:");
-    Console.WriteLine("7. While - Exemplo com Contador");
-    Console.WriteLine("8. While - Exemplo com Senha");
-    Console.WriteLine("9. While - Exemplo com Break");
-    Console.WriteLine("10. While - Exemplo com Continue");
+    Console.WriteLine("6. While - Exemplo com Contador");
+    Console.WriteLine("7. While - Exemplo com Senha");
+    Console.WriteLine("8. While - Exemplo com Break");
+    Console.WriteLine("9. While - Exemplo com Continue");
     
     Console.WriteLine("\nExemplos com Do-While:");
-    Console.WriteLine("11. Do-While - Jogo de Adivinhar Número");
+    Console.WriteLine("10. Do-While - Jogo de Adivinhar Número");
     
     Console.WriteLine("\n0. Sair");
     Console.Write("\nEscolha uma opção: ");
@@ -63,33 +62,30 @@ while (continuar)
             Exemplos_for.ExemploRangeInput();
             break;
         case "2":
-            Exemplos_for.ExemploListaComparacao();
-            break;
-        case "3":
             Exemplos_for.ExemploContagemValores();
             break;
-        case "4":
+        case "3":
             Exemplos_foreach.ExemploListaNumeros();
             break;
-        case "5":
+        case "4":
             Exemplos_foreach.ExemploListaPalavras();
             break;
-        case "6":
+        case "5":
             Exemplos_foreach.ExemploDicionario();
             break;
-        case "7":
+        case "6":
             Exemplos_while.ExemploContador();
             break;
-        case "8":
+        case "7":
             Exemplos_while.ExemploSenha();
             break;
-        case "9":
+        case "8":
             Exemplos_while.ExemploBreak();
             break;
-        case "10":
+        case "9":
             Exemplos_while.ExemploContinue();
             break;
-        case "11":
+        case "10":
             Exemplos_dowhile.JogoAdivinharNumero();
             break;
         case "0":

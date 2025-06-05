@@ -126,7 +126,7 @@ namespace console.mentoria4
                 if (numero % 2 != 0) // Se o número for ímpar
                 {
                     Console.WriteLine($"{numero} é ímpar, pulando...");
-                    continue; // Pula para a próxima iteração
+                        continue; // Pula para a próxima iteração
                 }
                 
                 somaPares += numero;

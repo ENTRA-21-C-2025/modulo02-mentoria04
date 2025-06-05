@@ -30,36 +30,6 @@ namespace console.mentoria4
         }
 
         /// <summary>
-        /// Ilustra como percorrer uma lista usando FOR
-        /// Demonstra busca case-insensitive em uma lista
-        /// Mostra o uso do break para interromper o loop quando encontra o elemento
-        /// Implementa uma busca simples com feedback de sucesso/falha
-        /// </summary>
-        public static void ExemploListaComparacao()
-        {
-            Console.WriteLine("\n=== Exemplo 2: Percorrendo lista com comparação ===");
-            List<string> nomes = ["João", "Maria", "Pedro", "Ana", "Carlos"];
-            Console.Write("Digite um nome para buscar na lista: ");
-            string nomeBusca = Console.ReadLine();
-
-            bool encontrado = false;
-            foreach (string nome in nomes)
-            {
-                if (nome.Equals(nomeBusca, StringComparison.OrdinalIgnoreCase))
-                {
-                    Console.WriteLine($"Nome encontrado: {nome}");
-                    encontrado = true;
-                    break;
-                }
-            }
-
-            if (!encontrado)
-            {
-                Console.WriteLine($"Nome '{nomeBusca}' não encontrado na lista");
-            }
-        }
-
-        /// <summary>
         /// Mostra como fazer uma contagem entre dois valores
         /// Implementa lógica para garantir que a contagem seja sempre crescente
         /// Demonstra o uso de variáveis de controle no FOR

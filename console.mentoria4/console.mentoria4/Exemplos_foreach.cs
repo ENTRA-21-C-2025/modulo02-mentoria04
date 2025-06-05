@@ -17,6 +17,7 @@ namespace console.mentoria4
         {
             Console.WriteLine("\n=== Exemplo 1: Foreach com lista de números ===");
             List<int> numeros = new List<int> { 1, 2, 3, 4, 5 };
+
             int soma = 0;
 
             Console.WriteLine("Números na lista:");
@@ -79,5 +80,5 @@ namespace console.mentoria4
                 Console.WriteLine($"Aluno: {aluno.Key} - Nota: {aluno.Value} - Situação: {situacao}");
             }
         }
-    }
+    }   
 }
